@@ -1,8 +1,10 @@
 extends Node2D
 
+#Variables
 var maxHealth: int = 100
 var currentHealth: int = 100
 
+#Functions
 func _ready():
     pass
 
@@ -27,6 +29,7 @@ func onHealthChanged():
 func onHealthDepleted():
     # Implement logic when health reaches 0
     print("Health Depleted!")
+
 
 # Usage:
 # Create an instance of this script in your scene and call `takeDamage` and `heal` functions as needed.
