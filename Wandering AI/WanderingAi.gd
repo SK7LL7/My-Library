@@ -1,7 +1,7 @@
 extends KinematicBody2D
 
-var moveSpeed = 100
-var rotationSpeed = 2
+var moveSpeed = 117
+var rotationSpeed = 2.2
 var currentDirection = Vector2(0, 0)
 
 func _ready():
