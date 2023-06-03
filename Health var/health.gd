@@ -8,6 +8,7 @@ var currentHealth: int = 100
 func _ready():
     pass
 
+#The player/enemy takes damage
 func takeDamage(damage: int):
     currentHealth -= damage
     if currentHealth <= 0:
